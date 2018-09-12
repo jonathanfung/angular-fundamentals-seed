@@ -29,10 +29,9 @@
       "checkInDate": 1488412800000
     },
     {
-      "id": 5,
       "fullname": "Tina",
+      "id": 5,
       "checkedIn": false,
-      "checkInDate": null,
       "baggage": ""
     }
   ]

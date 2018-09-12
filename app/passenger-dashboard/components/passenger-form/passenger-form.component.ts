@@ -1,7 +1,7 @@
-import { Component, OnInit, Input, Output, EventEmitter } from "@angular/core";
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
-import { Passenger } from "../../models/passenger.interface";
-import { Baggage } from "../../models/baggage.interface";
+import { Passenger } from '../../models/passenger.interface';
+import { Baggage } from '../../models/baggage.interface';
 
 @Component({
     selector: 'passenger-form',

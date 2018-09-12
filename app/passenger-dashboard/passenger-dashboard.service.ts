@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from "@angular/common/http";
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators'
 
-import { Passenger } from "./models/passenger.interface";
+import { Passenger } from './models/passenger.interface';
 
 const PASSENGER_API: string = '/api/passengers';
 
