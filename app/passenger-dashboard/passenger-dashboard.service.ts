@@ -18,6 +18,12 @@ export class PassengerDashboardService {
             .pipe(catchError(e => throwError(e)));
     }
 
+    getPassenger(id: number): Observable<Passenger> {
+        return this.httpClient
+            .get<Passenger>(`${PASSENGER_API}/${id}`)
+            .pipe(catchError(e => throwError(e)));
+    }
+
     updatePassenger(passenger: Passenger): Observable<Passenger> {
         let headers = new HttpHeaders({
             'Content-Type': 'application/json'
